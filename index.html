@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo:</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz de Conhecimentos Gerais:</h1>
+        <h2>Evoluções dos Pokémons</h2>
+        <div id="quiz-container">
+            <div id="question">Carregando Pergunta...</div>
+            <div id="options"></div>
+            <button id="next-btn">Próxima</button>
+            <div id="score-container"class="hidden">
+                <h3>Você acertou <span id="score"></span> de <span id="total"></span> perguntas!</h3>
+                <button onclick="restarQuiz()">Reniciar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
